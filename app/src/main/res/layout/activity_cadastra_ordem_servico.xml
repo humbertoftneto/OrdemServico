@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastraOrdemServico">
+
+    <TextView
+        android:id="@+id/t_OrdemServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Número da ordem de serviço:"/>
+    <EditText
+        android:id="@+id/ed_numOrdemServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        android:layout_marginLeft="8dp"/>
+    <TextView
+        android:id="@+id/t_DescricaoServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Descrição do serviço:"/>
+    <EditText
+        android:id="@+id/ed_descricaoOrdemServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"/>
+    <TextView
+        android:id="@+id/t_SetorOrdemServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Setor:"/>
+    <EditText
+        android:id="@+id/ed_setorOrdemServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"/>
+    <TextView
+        android:id="@+id/t_SolicitanteOrdemServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Solicitante:"/>
+    <EditText
+        android:id="@+id/ed_solicitanteOrdemServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"/>
+
+</LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,58 +11,105 @@
         android:id="@+id/t_OrdemServico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
         android:textSize="20dp"
         android:textColor="@android:color/black"
-        android:text="Número da ordem de serviço:"/>
+        android:text="Número da ordem de serviço:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ed_numOrdemServico"
+        android:background="@drawable/bd_edittext"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg_edittext"
-        android:layout_marginLeft="8dp"/>
+        android:layout_height="40dp"
+        android:layout_below="@id/t_OrdemServico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:id="@+id/t_DescricaoServico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
         android:textSize="20dp"
         android:textColor="@android:color/black"
-        android:text="Descrição do serviço:"/>
+        android:text="Descrição do serviço:"
+        android:layout_below="@id/ed_numOrdemServico"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ed_descricaoOrdemServico"
+        android:background="@drawable/bd_edittext"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"/>
+        android:layout_height="40dp"
+        android:layout_below="@id/t_DescricaoServico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:id="@+id/t_SetorOrdemServico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
         android:textSize="20dp"
         android:textColor="@android:color/black"
-        android:text="Setor:"/>
+        android:text="Setor:"
+        android:layout_below="@id/ed_descricaoOrdemServico"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ed_setorOrdemServico"
+        android:background="@drawable/bd_edittext"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"/>
+        android:layout_height="40dp"
+        android:layout_below="@id/t_SetorOrdemServico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"/>
     <TextView
         android:id="@+id/t_SolicitanteOrdemServico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
         android:textSize="20dp"
         android:textColor="@android:color/black"
-        android:text="Solicitante:"/>
+        android:text="Solicitante:"
+        android:layout_below="@id/ed_setorOrdemServico"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ed_solicitanteOrdemServico"
+        android:background="@drawable/bd_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/t_SolicitanteOrdemServico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/t_Observacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:text="Observações:"
+        android:layout_below="@id/ed_solicitanteOrdemServico"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/ed_observacoesOrdemServico"
+        android:background="@drawable/bd_edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"/>
+        android:lines="10"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:maxLines="15"
+        android:layout_below="@id/t_Observacoes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"/>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btn_Confirma"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#2E8C03"
+        android:text="Confirmar" />
+
+
+</RelativeLayout>

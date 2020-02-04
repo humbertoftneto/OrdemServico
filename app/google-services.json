@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "118222596261",
+    "firebase_url": "https://novagalia-ae872.firebaseio.com",
+    "project_id": "novagalia-ae872",
+    "storage_bucket": "novagalia-ae872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118222596261:android:9f9b2817371b485713c54c",
+        "android_client_info": {
+          "package_name": "com.example.ordemservico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118222596261-l8q952pta4pld0kbvnp7fu01dqh5p5v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ordemservico",
+            "certificate_hash": "b36da8f01d8f148ef78bda0e147894dfcb42ef8f"
+          }
+        },
+        {
+          "client_id": "118222596261-45notjah1rjodqvmlkjd9g1ja9d87a5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ordemservico",
+            "certificate_hash": "ba4a4c943547a5021a38a0513050ca8439972551"
+          }
+        },
+        {
+          "client_id": "118222596261-ivb4ihbm5iuo14o3h9dd38ftk554812s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd5bHO3saxDqktX6cmfoybfeuMCEGplE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118222596261-ivb4ihbm5iuo14o3h9dd38ftk554812s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
